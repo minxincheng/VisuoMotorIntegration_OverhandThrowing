@@ -1,0 +1,798 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677866648706036, "dur": 1153469, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866648706233, "dur": 4205, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866648710441, "dur": 32342, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866648742785, "dur": 459641, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866649202428, "dur": 643697, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866649846127, "dur": 13377, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866649860000, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677866649062650, "dur": 103867, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649063376, "dur": 29669, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649154821, "dur": 3375, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649158199, "dur": 8311, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649158697, "dur": 7287, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649170530, "dur": 961, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677866649169835, "dur": 1680, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866649860084, "dur": 113, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677866649236714, "dur":1060, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649237780, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677866649237857, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677866649237870, "dur":1097, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677866649239017, "dur":358, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649239375, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649815957, "dur":256, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816213, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816282, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816286, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816294, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816295, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816298, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816299, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816302, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816303, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816307, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816308, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816310, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816311, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816321, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816322, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816324, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816325, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816330, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816331, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816334, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816334, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816339, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816339, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816343, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816380, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816384, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816385, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816391, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816391, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816393, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816394, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816397, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816398, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816400, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816401, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816403, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816404, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816406, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816407, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816410, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816422, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649816468, "dur":1350, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677866649238613, "dur":766, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649239380, "dur":2442, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649241830, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677866649241844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649242823, "dur":274, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677866649243100, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677866649243128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649243267, "dur":15529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677866649258798, "dur":18547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649277348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649277381, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649278316, "dur":12570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649290890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649290897, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649291853, "dur":22470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649314328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649314337, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649315530, "dur":25289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649340822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649340829, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649343266, "dur":16518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649359804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649359812, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649360988, "dur":14334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649375325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649375332, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649378464, "dur":54849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649433317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649433323, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649435466, "dur":33143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649468614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649468621, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649469648, "dur":62802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.DurableInstancing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649532456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649532466, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.DurableInstancing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649533675, "dur":155303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649688982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649689008, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649690214, "dur":14554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649704772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677866649704780, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677866649709496, "dur":106527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649238688, "dur":694, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649239382, "dur":2651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649242034, "dur":2367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649244405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649244494, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649247933, "dur":24726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649272662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649272704, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649276915, "dur":15473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649292391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649292397, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649293087, "dur":24143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649317235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649317243, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649318428, "dur":14272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649332704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649332712, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649335193, "dur":59719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649394918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649394927, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649395977, "dur":21439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649417419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649417426, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649418362, "dur":33148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649451643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649451650, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649452780, "dur":76808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649529597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649529608, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649530941, "dur":28526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649559474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649559485, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649560491, "dur":27463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649587958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649587966, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649588886, "dur":77239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649666130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649666138, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649667445, "dur":71379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649738828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677866649738835, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677866649739614, "dur":76411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649238709, "dur":676, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649239386, "dur":2627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649242013, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677866649242421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649242918, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1677866649249218, "dur":55898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649305120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649305125, "dur":17038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649322206, "dur":24064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649346274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649346284, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649347703, "dur":15548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649363257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649363268, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649364556, "dur":22659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649387218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649387225, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649389657, "dur":26667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649416327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649416334, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649417645, "dur":50809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRDevTools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649468459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649468469, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRDevTools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649470084, "dur":24422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649494512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649494526, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649495700, "dur":14421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649510126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649510136, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649511162, "dur":22805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649533971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649533979, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649535025, "dur":39608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649574638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649574650, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649575929, "dur":14190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649590122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649590129, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649590948, "dur":34367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649625321, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649625332, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649626472, "dur":136618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649763093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677866649763100, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677866649763938, "dur":52036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649238721, "dur":668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649239390, "dur":2609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649241999, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1677866649242399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649242919, "dur":15631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1677866649258600, "dur":14660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649273264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649273592, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649274772, "dur":16874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649291649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649291655, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649292547, "dur":55137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649347687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649347693, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649349681, "dur":115455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649465142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649465152, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649467333, "dur":104850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649572188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649572198, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649574164, "dur":76762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649650931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649650937, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649652952, "dur":53965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649706920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677866649706926, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677866649708522, "dur":107523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677866649238780, "dur":613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677866649239393, "dur":2600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677866649241994, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677866649242237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677866649244186, "dur":360577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1677866649604799, "dur":208815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677866649813618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677866649813626, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677866649815885, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1677866649815887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649238792, "dur":602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649239395, "dur":2597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649241992, "dur":11681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1677866649253676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649253691, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1677866649257648, "dur":31553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649289205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649289211, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649291097, "dur":13065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649304167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649304175, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649305356, "dur":19555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649324915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649324924, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649326441, "dur":13823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649340269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649340280, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649341614, "dur":15687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649357306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649357315, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649358565, "dur":28755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649387322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649387326, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649389840, "dur":42977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649432821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649432829, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649434643, "dur":130697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649565346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649565355, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649567016, "dur":35271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649602293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649602302, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649603535, "dur":66895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/NetMQ.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649670434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649670443, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/NetMQ.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649671547, "dur":1213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649672764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649673575, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649674893, "dur":9032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.x86.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649683929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649684018, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.x86.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649687198, "dur":7802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649695003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649695010, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677866649696695, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677866649696771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649696776, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1677866649706586, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1677866649706773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677866649706780, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1677866649708392, "dur":107638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649238808, "dur":651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649239460, "dur":2518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649241979, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1677866649242706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649244174, "dur":13064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1677866649257297, "dur":44379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/WindowsBase.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649301682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649301692, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/WindowsBase.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649302973, "dur":22943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649325920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649325925, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649327313, "dur":15252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649342569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649342576, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649346217, "dur":17099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649363321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649363329, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649364509, "dur":83086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649447601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649447610, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649448607, "dur":115785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649564429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649564441, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649567360, "dur":83357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649650723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649650734, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649651851, "dur":65482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649717336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677866649717344, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677866649718773, "dur":97207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649238822, "dur":648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649239470, "dur":2457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649241927, "dur":8952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677866649250881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649250891, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1677866649252305, "dur":2566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677866649254873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649254877, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest.exe" }}
+,{ "pid":12345, "tid":8, "ts":1677866649259930, "dur":50577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649310513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649310524, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649311705, "dur":13592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649325300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649325306, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649326547, "dur":33743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649360294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649360305, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649364562, "dur":18752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649383318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649383326, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649384587, "dur":16726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649401319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649401328, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649402112, "dur":34565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649436681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649436689, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649437411, "dur":14276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649451690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649451695, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649452719, "dur":125316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649578042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649578053, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649579523, "dur":25622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/shortid.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649605148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649605156, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/shortid.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649606351, "dur":32378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649638733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649638742, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649639961, "dur":22723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/KaitaiStruct.Runtime.CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649662688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649662694, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/KaitaiStruct.Runtime.CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649663483, "dur":43390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/GlmSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649706876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677866649706882, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/GlmSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677866649709999, "dur":106016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649238880, "dur":593, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649239473, "dur":2429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649241902, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1677866649242177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649243786, "dur":17600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1677866649261409, "dur":16422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649277834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649277839, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649278736, "dur":37418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649316156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649316161, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649317677, "dur":13694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649331376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649331385, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649333456, "dur":22673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649356132, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649356143, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649360896, "dur":26527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649387426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649387431, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649389668, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649390180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649390187, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649391232, "dur":24938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649416173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649416184, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649417278, "dur":52220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRSDK.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649469501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649469506, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRSDK.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649470760, "dur":65527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Caching.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649536293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649536301, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.Caching.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649540031, "dur":49278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649589313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649589320, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649590135, "dur":93301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649683441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649683450, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649684898, "dur":2223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649687127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649687137, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649688660, "dur":3991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_hec.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649692654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649692662, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_hec.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677866649694052, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1677866649694858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649695147, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1677866649696441, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677866649696475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677866649696481, "dur":27362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1677866649723876, "dur":92108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649238932, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649239476, "dur":2351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649241831, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1677866649241952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649255447, "dur":22826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1677866649278309, "dur":12792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649291104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649291109, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649292011, "dur":24089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649316103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649316110, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649317906, "dur":13540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649331449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649331454, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649335492, "dur":14512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649350009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649350018, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649350844, "dur":14656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649365503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649365510, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649366742, "dur":23818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649390563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649390568, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649391395, "dur":24770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649416172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649416183, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649417443, "dur":25601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRG2OM.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649443049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649443058, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/TobiiXRG2OM.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649443978, "dur":68496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649512479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649512488, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649514358, "dur":71524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649585888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649585898, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649587012, "dur":23421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Obvs.Serialization.ProtoBuf.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649610439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649610449, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Obvs.Serialization.ProtoBuf.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649611401, "dur":147789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649759194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677866649759203, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677866649759906, "dur":56071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649238981, "dur":529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649239510, "dur":2443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649241953, "dur":16102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1677866649258057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649258072, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1677866649259545, "dur":23178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649282726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649282735, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649283926, "dur":9610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649293539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649293610, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649294707, "dur":13211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649307924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649307934, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649308802, "dur":16172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649324976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649324983, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649326665, "dur":28585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649355254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649355262, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649356494, "dur":13627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649370126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649370134, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649371015, "dur":35205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649406226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649406236, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649407250, "dur":26247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649433500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649433505, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649435711, "dur":14634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649450349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649450357, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649451051, "dur":18151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.Activation.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649469206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649469211, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ServiceModel.Activation.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649469925, "dur":16744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649486671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649486678, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649487335, "dur":58703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649546041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649546049, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649547800, "dur":114486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649662292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649662300, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649664391, "dur":49479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/AsyncIO.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649713876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677866649713887, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/AsyncIO.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677866649715165, "dur":100838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649239030, "dur":484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649239514, "dur":2414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649241928, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677866649242216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649243470, "dur":342944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677866649586457, "dur":52270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/protobuf-net.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677866649638732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649638742, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/protobuf-net.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677866649640001, "dur":74367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.Protocols.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677866649714372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677866649714380, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.Protocols.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677866649715922, "dur":100065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649239044, "dur":472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649239516, "dur":2421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649241937, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1677866649242203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649244860, "dur":26918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1677866649271812, "dur":16578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649288396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649288406, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649289390, "dur":85355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649374747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649374754, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649378377, "dur":42035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649420418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649420428, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649421846, "dur":63598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649485449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649485458, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649487454, "dur":72253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649559711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649559719, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649561559, "dur":105721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649667285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649667293, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649668887, "dur":21822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649690713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649690720, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649692098, "dur":7544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_g2om.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649699650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649699669, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_g2om.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677866649702093, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677866649702124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649702130, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level1.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677866649703315, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677866649703345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649703350, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677866649704372, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1677866649704400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649704407, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1677866649705397, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1677866649705429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677866649705434, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1677866649706717, "dur":109241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649239062, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649239519, "dur":2307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649241830, "dur":11762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1677866649253594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649253605, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1677866649257314, "dur":28800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649286119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649286127, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649287450, "dur":26872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649314328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649314337, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649315750, "dur":26374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649342128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649342135, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649343361, "dur":37086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649380452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649380461, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649383231, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649383786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649383793, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649384664, "dur":40196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649424866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649424876, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649425974, "dur":141903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649567881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649567890, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649571008, "dur":73794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649644808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649644819, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649645957, "dur":82465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.ClientCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649728424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677866649728431, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.ClientCore.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677866649730208, "dur":85753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649239111, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649239560, "dur":2265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649241830, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1677866649241969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649243861, "dur":21941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1677866649265846, "dur":16994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649282842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649282847, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649283912, "dur":46235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649330152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649330187, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649333289, "dur":14137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649347430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649347438, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649348738, "dur":16389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649365131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649365142, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649366544, "dur":54297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649420865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649420873, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649423167, "dur":212709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649635882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649635892, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649639861, "dur":85245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/log4net.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649725113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677866649725121, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/log4net.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677866649726001, "dur":89962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649239125, "dur":439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649239565, "dur":2259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649241830, "dur":31786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1677866649273618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649274553, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1677866649277348, "dur":12587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649289939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649289963, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649291003, "dur":84453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649375459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649375465, "dur":3475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649378970, "dur":134351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649513325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649513334, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649514915, "dur":22443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IdentityModel.Selectors.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649537362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649537372, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IdentityModel.Selectors.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649539992, "dur":141823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649681820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649681830, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649684832, "dur":11687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_stream_engine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649696522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649696529, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/tobii_stream_engine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677866649699711, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1677866649699885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649699890, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1677866649700757, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1677866649700790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677866649700797, "dur":16199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1677866649717020, "dur":98980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649239149, "dur":423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649239572, "dur":2301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649241874, "dur":8986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1677866649250864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649250878, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1677866649252196, "dur":6031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":17, "ts":1677866649258229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649258232, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":17, "ts":1677866649260261, "dur":23525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649283791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649283798, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649284624, "dur":20165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649304812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649304819, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649305779, "dur":17461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649323264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649323272, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649324286, "dur":34880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649359171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649359181, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649361047, "dur":25920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649386972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649386982, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649388672, "dur":19617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649408294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649408303, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649409338, "dur":15524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649424866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649424876, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649425969, "dur":65131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xaml.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649491105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649491114, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Xaml.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649492397, "dur":28347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Messaging.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649520750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649520759, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Messaging.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649521705, "dur":65330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IdentityModel.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649587038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649587045, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.IdentityModel.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649588022, "dur":48488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Obvs.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649636515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649636537, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Obvs.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649637424, "dur":81900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/ManusCore.Math.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649719328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1677866649719337, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/ManusCore.Math.dll" }}
+,{ "pid":12345, "tid":17, "ts":1677866649720224, "dur":95773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649239159, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649239576, "dur":2295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649241872, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1677866649242102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649253781, "dur":20576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1677866649274388, "dur":64167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649338562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649338573, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649340585, "dur":13989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649354580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649354591, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649355689, "dur":18717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649374411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649374420, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649375414, "dur":56751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649432170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649432180, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649434646, "dur":205302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649639952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649639959, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649643362, "dur":83751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.Logging.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649727118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1677866649727127, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Hermes.Logging.dll" }}
+,{ "pid":12345, "tid":18, "ts":1677866649728094, "dur":87865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649239172, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649239581, "dur":2289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649241870, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1677866649242115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649254956, "dur":331453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1677866649586456, "dur":24790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Semver.dll" }}
+,{ "pid":12345, "tid":19, "ts":1677866649611251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649611258, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Semver.dll" }}
+,{ "pid":12345, "tid":19, "ts":1677866649612000, "dur":79167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":19, "ts":1677866649691170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649691177, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":19, "ts":1677866649692352, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":19, "ts":1677866649692992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649694433, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":19, "ts":1677866649695292, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":19, "ts":1677866649695323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649695348, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":19, "ts":1677866649696734, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1677866649696771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649696776, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1677866649698785, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":19, "ts":1677866649698815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649698822, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":19, "ts":1677866649700278, "dur":9358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":19, "ts":1677866649709640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1677866649709651, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":19, "ts":1677866649710640, "dur":105380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649239184, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649239599, "dur":2267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649241867, "dur":10760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1677866649252629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649252640, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1677866649254080, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1677866649254135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649254292, "dur":27894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1677866649282229, "dur":12965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649295197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649295204, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649296031, "dur":29965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649325999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649326004, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649327492, "dur":17041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649344539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649344549, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649347215, "dur":22027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649369248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649370288, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649371235, "dur":61799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649433041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649433048, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649436163, "dur":38956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649475124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649475134, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649476247, "dur":69057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Reactive.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649545311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649545320, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Reactive.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649547646, "dur":72207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649619859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649619869, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649620927, "dur":30862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Messaging.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649651792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649651816, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Mono.Messaging.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649652941, "dur":23939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Grpc.Core.Api.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649676886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649676896, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Managed/Grpc.Core.Api.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649677908, "dur":18815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649696726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649696732, "dur":4672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/Plugins/x86_64/grpc_csharp_ext.dll" }}
+,{ "pid":12345, "tid":20, "ts":1677866649701434, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1677866649701463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649701469, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1677866649702929, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level1" }}
+,{ "pid":12345, "tid":20, "ts":1677866649702961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649702967, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/level1" }}
+,{ "pid":12345, "tid":20, "ts":1677866649705398, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":20, "ts":1677866649705438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1677866649705442, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ReGame-XR Lab/Desktop/Task2_3D-Build/ManusTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":20, "ts":1677866649707719, "dur":108238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677866649818889, "dur":1557, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677866649860230, "dur": 454, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677866649859989, "dur": 706, "ph": "X", "name": "Write chrome-trace events", "args": {} },
